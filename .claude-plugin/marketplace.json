@@ -1,0 +1,14 @@
+﻿{
+  "name": "qoyod",
+  "description": "Skills for working with Qoyod accounting: recording supplier purchase bills and attaching their invoice PDFs.",
+  "owner": {
+    "name": "Amr Mustafa M. M.",
+    "email": "amoustafa@qoyod.com"
+  },
+  "plugins": [
+    {
+      "name": "qoyod-batch-bills",
+      "source": "./"
+    }
+  ]
+}

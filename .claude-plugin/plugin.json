@@ -1,0 +1,9 @@
+﻿{
+  "name": "qoyod-batch-bills",
+  "version": "0.1.0",
+  "description": "Record supplier purchase invoices in Qoyod as draft Simple Bills over the API, then attach each PDF through the user's logged-in Chrome.",
+  "author": {
+    "name": "Amr Mustafa M. M.",
+    "email": "amoustafa@qoyod.com"
+  }
+}

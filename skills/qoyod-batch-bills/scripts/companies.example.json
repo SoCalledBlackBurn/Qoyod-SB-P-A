@@ -1,0 +1,35 @@
+{
+  "_comment": [
+    "TEMPLATE -- contains no real data. Copy to ~/.claude/qoyod/companies.json",
+    "and fill in your own companies. Keep that file off OneDrive and shared",
+    "drives; it is never committed to this repository.",
+    "",
+    "Add one block per client company. The block's key is the slug you pass",
+    "to --company, e.g. --company acme.",
+    "",
+    "  name             REQUIRED. The legal name EXACTLY as Qoyod holds it,",
+    "                   which in practice means Arabic. It is matched against",
+    "                   the customer name printed on each invoice, so do not",
+    "                   translate or tidy it -- that blocks correct invoices.",
+    "  vat              REQUIRED. The company's own VAT number, 15 digits.",
+    "  expense_account  REQUIRED. Default expense account code, e.g. 5101.",
+    "  api_key_env      Name of an environment variable holding the API key.",
+    "  api_key          The key inline instead. Prefer api_key_env, so the key",
+    "                   never sits in a file.",
+    "  name_en          Optional, display only. Never matched.",
+    "  inventory_id     Optional. Pins the location; otherwise the tenant's",
+    "                   first location is used.",
+    "",
+    "Delete this _comment block and the empty entry below once you have added",
+    "your own."
+  ],
+  "companies": {
+    "your-company-slug": {
+      "name": "",
+      "name_en": "",
+      "vat": "",
+      "expense_account": "",
+      "api_key_env": ""
+    }
+  }
+}

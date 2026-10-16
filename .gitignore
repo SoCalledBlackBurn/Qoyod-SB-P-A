@@ -1,0 +1,20 @@
+# Never commit the client registry: it names companies and may hold API keys.
+companies.json
+!**/companies.example.json
+
+# Run artefacts, in case anyone runs a batch inside the repo.
+log.csv
+queue*.json
+bills_*.json
+review*.json
+attach_results.json
+reports/
+work/
+extracted/
+inbox/
+done/
+errors/
+screenshots/
+
+__pycache__/
+*.pyc
